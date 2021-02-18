@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_02_Entities</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ETradeBilgeAdamCore8131\AppCore\01_AppCore.csproj" />
+  </ItemGroup>
+</Project>
